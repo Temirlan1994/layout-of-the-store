@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.wrapper_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration_block {
+    position: relative;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 50px;
+    box-shadow: 0 0 10px 5px #D3D3D3;
+    margin: 50px 0;
+}
+
+.regis_text {
+    position: absolute;
+    top: -22px;
+    left: 0;
+    color: #494949;
+    opacity: 0.7;
+}
+
+.create {
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    width: 240px;
+}
+
+.second_name {
+    width: 240px;
+}
+
+.text_block {
+    padding: 10px;
+    color: #4B4B4B;
+    border: 1px solid #D3D3D3;
+    background: #F6F6F6;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.button_regis {
+    background: #2156BD;
+    width: 500px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+}
+
+.button_regis:hover {
+    cursor: pointer;
+}
+
+.sign_in {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign_in_text {
+    color: #989898;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sign_in_text:hover {
+    text-decoration: underline;
+}
+
+.pass {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.pass_text {
+    font-size: 18px;
+    color: #2156BD;
+    text-decoration: none;
+}
+
+.recovery_text {
+    color: #989898;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
