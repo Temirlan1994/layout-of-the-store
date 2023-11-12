@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Shop</title>
-  <link rel="stylesheet" href="basket2.css">
+  <link rel="stylesheet" href="css/main_css.css">
 </head>
 <body>
 <div class="wrapper">
     <div class="header">
         <div class="logo">
-            <img src="../main_page/logo.svg">
+            <img src="pictures/logo.svg">
         </div>
         <div class="city">
             <span>г.Нур-Султан</span>
@@ -22,7 +22,7 @@
         <div class="search">
             <input class="input_search" type="text" value placeholder="Поиск по каталогу ...">
             <button class="button_img">
-                <img src="../main_page/search_sign.svg" class="img_">
+                <img src="pictures/search_sign.svg" class="img_">
             </button>
         </div>
         <div class="sign">
@@ -30,8 +30,8 @@
             <a href="#" class="sign_a">Зарегистрироваться</a>
         </div>
         <div class="basket">
-            <img src="../main_page/two.png" class="two_png">
-            <img src="../main_page/basket.svg">
+            <img src="pictures/two.png" class="two_png">
+            <img src="pictures/basket.svg">
         </div>
     </div>
 </div>
@@ -41,62 +41,67 @@
             <span class="order__text">Оформление заказа</span>
             <div class="order__elements">
                 <div class="order__elements--modifier">Корзина</div>
-                <div class="order__elements--modifier basket_mod">Контактные данные</div>
-                <div class="order__elements--modifier">Доставка</div>
+                <div class="order__elements--modifier">Контактные данные</div>
+                <div class="order__elements--modifier basket_mod">Доставка</div>
                 <div class="order__elements--modifier">Завершение</div>
             </div>
         </div>
         <div class="basket_block">
-            <span class="basket_block_text">Контактные данные</span>
+            <span class="basket_block_text">Доставка</span>
             <div class="basket_block_elements">
                 <div class="contact__info">
-                    <span class="contact__info__text">Фамилия</span>
+                    <span class="contact__info__text">Область</span>
+                    <select class="input">
+                        <option>Акмолинская область</option>
+                        <option>Алматинская область</option>
+                        <option>г. Астана</option>
+                        <option>г. Алматы</option>
+                    </select>
+                    <span class="contact__info__text">Город или поселок</span>
                     <input class="input">
-                    <span class="contact__info__text">Имя</span>
-                    <input class="input">
-                    <span class="contact__info__text">Отчество</span>
-                    <input class="input">
-                    <span class="contact__info__text">Телефон</span>
-                    <input class="input" value="+7 (___) ___ __ __">
                 </div>
                 <div class="border"></div>
-                <div class="contact__info">
-                    <span class="contact__info__text">E-mail</span>
+                <div class="contact__info email">
+                    <span class="contact__info__text">Улица</span>
                     <input class="input">
-
-                    <span class="contact__info__text">Пароль</span>
-                    <input class="input">
-                    <span class="contact__info__text">Повторите пароль</span>
-                    <input class="input">
-                </div>
+                    <div class="contact__info--home">
+                        <div class="contact__info--home--elements">
+                            <span class="contact__info__text">Дом</span>
+                            <input class="input home--input">
+                        </div>
+                        <div class="contact__info--home--elements">
+                            <span class="contact__info__text">Квартира</span>
+                            <input class="input home--input">
+                        </div>
+                    </div>
             </div>
         </div>
-        <button class="button">Подтвердить</button>
+        <button class="button">Оформить заказ</button>
     </div>
 </div>
 <div class="footer">
     <div class="footer_blocks">
         <div class="footer_block">
-            <img src="../main_page/instagram.png" class="footer_img">
+            <img src="pictures/instagram.png" class="footer_img">
             <div class="phone_city">
                 <span>frostauto</span>
             </div>
         </div>
         <div class="footer_block">
-            <img src="../main_page/massege.png" class="footer_img">
+            <img src="pictures/massege.png" class="footer_img">
             <div class="phone_city">
                 <span>frostauto@gmail.com</span>
             </div>
         </div>
         <div class="footer_block">
-            <img src="../main_page/phone.png" class="footer_img">
+            <img src="pictures/phone.png" class="footer_img">
             <div class="phone_city">
                 <span class="foot_city">г. Нур-Султан</span>
                 <span>+7 777 777 77 77</span>
             </div>
         </div>
         <div class="footer_block">
-            <img src="../main_page/phone.png" class="footer_img">
+            <img src="pictures/phone.png" class="footer_img">
             <div class="phone_city">
                 <span class="foot_city">г. Алматы</span>
                 <span>+7 777 777 77 77</span>
